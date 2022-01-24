@@ -58,6 +58,9 @@
 .aside {
     background-color: rgba(198, 233, 251, 0.85);
     border-radius: 40px;
+    font-family: 'Montserrat';
+    font-family: 'Ubuntu';
+
 }
 
 .aside > p {
