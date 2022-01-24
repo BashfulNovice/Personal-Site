@@ -5,9 +5,9 @@ export default function Header({currentUser, setCurrentUser}) {
 
     return(
         <div className = 'header'>
-            <Link to = '/'>Home</Link>
-            <Link to = '/work'>Work</Link>
-            <Link to = '/about'>About</Link>
+            <Link className = 'internal-link' to = '/'>Home</Link>
+            <Link className = 'internal-link' to = '/work'>Work</Link>
+            <Link className = 'internal-link' to = '/about'>About</Link>
         </div>
     )
 }

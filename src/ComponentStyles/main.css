@@ -1,9 +1,11 @@
 .landing-container {
-    background-color: aquamarine;
+    background-color: #3A3D55;
+    background-image: url('../media/background.jpg');
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .landing-pic {
@@ -26,4 +28,23 @@
 .landing-description {
     width: 75%;
     margin: auto;
+}
+
+.social-links {
+    margin: auto;
+    width: 350px;
+    border-top: 2px solid #C2C5D6;
+    border-bottom :2px solid #C2C5D6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social-link {
+    
+}
+
+.social-pic {
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
 }
