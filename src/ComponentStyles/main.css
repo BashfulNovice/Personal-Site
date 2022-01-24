@@ -33,18 +33,33 @@
 .social-links {
     margin: auto;
     width: 350px;
-    border-top: 2px solid #C2C5D6;
-    border-bottom :2px solid #C2C5D6;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-top: 2px solid #40B7F2;
+    border-bottom :2px solid #40B7F2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom:15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.social-link {
+/* .social-link {
     
-}
+} */
 
 .social-pic {
-    height: 40px;
-    width: 40px;
-    border-radius: 25px;
+    height: 34px;
+    width: 34px;
+    border-radius: 17px;
+}
+
+.aside {
+    background-color: rgba(198, 233, 251, 0.85);
+    border-radius: 40px;
+}
+
+.aside > p {
+    max-width: 56em;
 }
