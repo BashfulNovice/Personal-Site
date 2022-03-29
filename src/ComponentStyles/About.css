@@ -1,0 +1,88 @@
+.About-container {
+    background-image: url('../media/background.jpg');
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.carousel-container {
+    background-color: rgba(198, 233, 251, 0.85);
+    border-radius: 40px;
+    min-width: 350px;
+    width: 35%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info-container {
+    background-color: rgba(198, 233, 251, 0.85);
+    border-radius: 40px;
+    min-width: 350px;
+    width: 55%;
+    height: 85%;
+    /* padding: 40px; */
+}
+.button-container {
+    /* position: relative; */
+    /* right: 12px; */
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.5%;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+}
+
+.content {
+    display: block;
+    background-color: #ecf8fd;
+    width: 85%;
+    margin: auto;
+    padding: 3%;
+    height: 75%;
+    overflow: auto;
+    border-radius: 0 15px 15px 15px;
+}
+
+/* #background {
+    display:block;
+} */
+
+
+.contentHidden {
+    padding: 10px;
+    background-color: #ecf8fd;
+    /* background-color: aquamarine; */
+    border-radius: 10px 10px 0 0;
+    border: 2px solid black;
+}
+
+.displayed-pic {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+.radio-buttons {
+    padding: 8px;
+}
+.contentSelect {
+    border-radius: 0;
+    border: 2px solid #59c1ee;
+    height: 3em;
+    background-color: #c8eaf9;
+}
+
+.contentSelect:hover {
+    text-shadow:0px 0px 1px black;
+}
