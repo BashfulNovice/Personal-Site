@@ -109,12 +109,18 @@ export default function About() {
             </div>
             <div className = 'info-container'>
                 <div className = 'button-container'>
-                    <button style = {{borderBottom: content === 'background'? 'none' : '2px solid #59c1ee',
-                     backgroundColor: content === 'background'? '#ecf8fd' : '#c8eaf9'}}className = 'contentSelect' value = 'background' onClick = {handleContent}>Background</button>
-                    <button style = {{borderBottom: content === 'software'? 'none' : '2px solid #59c1ee',
-                     backgroundColor: content === 'software'? '#ecf8fd' : '#c8eaf9'}} className = 'contentSelect' value = 'software' onClick = {handleContent}>Why Software</button>
-                    <button style = {{borderBottom: content === 'personal'? 'none' : '2px solid #59c1ee',
-                     backgroundColor: content === 'personal'? '#ecf8fd' : '#c8eaf9'}} className = 'contentSelect' value = 'personal' onClick = {handleContent}>Personal</button>
+                    <button style = {{
+                    //  borderBottom: content === 'background'? 'none' : '2px solid #59c1ee',
+                    //  backgroundColor: content === 'background'? '#ecf8fd' : '#c8eaf9',
+                     boxShadow: content === 'background'? 'none' : `inset 0px 12px 8px -10px #CCC, inset 0px -12px 8px -10px #CCC, inset 0 0 12px 5px #ccc`}} className = 'contentSelect' value = 'background' onClick = {handleContent}>Background</button>
+                    <button style = {{
+                        // borderBottom: content === 'software'? 'none' : '2px solid #59c1ee',
+                        // backgroundColor: content === 'software'? '#ecf8fd' : '#c8eaf9',
+                        boxShadow: content === 'software'? 'none' : `inset 0px 12px 8px -10px #CCC, inset 0px -12px 8px -10px #CCC, inset 0 0 12px 5px #ccc`}} className = 'contentSelect' value = 'software' onClick = {handleContent}>Why Software</button>
+                    <button style = {{
+                        // borderBottom: content === 'personal'? 'none' : '2px solid #59c1ee',
+                        // backgroundColor: content === 'personal'? '#ecf8fd' : '#c8eaf9',
+                        boxShadow: content === 'personal'? 'none' : `inset 0px 12px 8px -10px #CCC, inset 0px -12px 8px -10px #CCC, inset 0 0 12px 5px #ccc`}} className = 'contentSelect' value = 'personal' onClick = {handleContent}>Personal</button>
                 </div>
                 {renderContent()}
             </div>

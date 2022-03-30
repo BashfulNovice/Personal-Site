@@ -24,9 +24,9 @@ export default function Main() {
                 </p>
                 <div className = 'social-links'>
                     <a className = 'social-link' target = '_blank' href = 'https://www.facebook.com/todd.krieger.14/'><img className = 'social-pic' src = {fbPic}/></a>
-                    <a className = 'social-link' target = '_blank' href = 'https://www.facebook.com/todd.krieger.14/'><img className = 'social-pic' src = {igPic}/></a>
-                    <a className = 'social-link' target = '_blank' href = 'https://www.facebook.com/todd.krieger.14/'><img className = 'social-pic' src = {linkedInPic}/></a>
-                    <a className = 'social-link' target = '_blank' href = 'https://www.facebook.com/todd.krieger.14/'><img className = 'social-pic' src = {gitHubPic}/></a>
+                    <a className = 'social-link' target = '_blank' href = 'https://www.instagram.com/toddwkrieger/'><img className = 'social-pic' src = {igPic}/></a>
+                    <a className = 'social-link' target = '_blank' href = 'https://www.linkedin.com/in/todd-krieger-forhire/'><img className = 'social-pic' src = {linkedInPic}/></a>
+                    <a className = 'social-link' target = '_blank' href = 'https://github.com/bashfulnovice'><img className = 'social-pic' src = {gitHubPic}/></a>
                 </div>
             </div>
         </div>
