@@ -1,0 +1,42 @@
+.workContainer {
+    background-image: url('../media/background.jpg');
+    height: 100vh;
+    display: flex;
+    
+}
+
+.carouselContainer {
+    /* border: 3px solid green; */
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    background-color: rgba(198, 233, 251, 0.9);
+    border-radius: 40px;
+}
+
+.carousel {
+    border: 3px solid red;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    height: 100%;
+    width: 100%;
+
+}
+
+.projectCard {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    color: black;
+}
